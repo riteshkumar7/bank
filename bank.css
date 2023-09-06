@@ -1,0 +1,29 @@
+.bankbody{
+    background-color: skyblue;
+}
+.con{
+    background-color: aliceblue;
+    border:1px solid dodgerblue;
+    border-radius:20px;
+    margin:250px 450px;
+    width:600px;
+    height:400px;
+}
+#A,#t{
+    border:1px solid navy;
+    border-radius:10px;
+    width:170px;
+    height:30px;
+}
+.bba,.bbc{
+    border:1px solid white;
+    border-radius:15px;
+    width:150px;
+    height:30px;
+}
+.bba:hover{
+    border-color:blue;
+}
+.bbc:hover{
+    border-color:blue;
+}

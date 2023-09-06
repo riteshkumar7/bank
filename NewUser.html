@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <style>
+            .box{
+                background-color: rosybrown;
+            }
+            .fill{
+                background-color: lemonchiffon;
+                border:0px solid azure;
+                border-radius:20px;
+                margin:200px 450px;
+                width:500px;
+                height:300px;
+                text-align:center;
+            }
+            #nm,#p1,#ac,#at,#bal{
+                border:1px solid black;
+                border-radius: 20px;
+                width:250px;
+                height:30px;
+            }
+            #but{
+                border:0px solid black;
+                border-radius:20px;
+                width:80px;
+                height:30px;
+            }
+            #but{
+                border:0px solid black;
+                border-radius:20px;
+                width:100px;
+                height:30px;
+            }
+
+        </style>
+        <script src="nUser.js"></script>
+    </head>
+    <body class="box">
+        <div class="fill">
+            <h1>Open Account</h1>
+            <p>Name<input id="nm" type="text" required minlength="4" maxlength="50"></p>
+            <p>Password<input type="text" id="p1"></p>
+            <p>Account no<input id="ac" type="number" required></p>
+            <p>type of act<input id="at" type="text"><br><br></p>
+            Balance<input id="bal" type="text">
+            <br><br>
+            <button id="but" onclick="nUser()">Submit</button>
+        </div>
+
+    </body>
+</html>
